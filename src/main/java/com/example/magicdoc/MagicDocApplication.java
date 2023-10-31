@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MagicDocApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MagicDocApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MagicDocApplication.class, args);
+    }
 
 }
