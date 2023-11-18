@@ -12,4 +12,10 @@ public class HelloController {
         System.out.println(delta);
         return delta;
     }
+
+    @GetMapping
+    @RequestMapping("/test")
+    public String test() {
+        return "works";
+    }
 }
